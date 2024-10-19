@@ -120,7 +120,7 @@ const CascadingForm = () => {
   );
 
   return (
-    <form className="h-full w-fit bg-white shadow-xl p-5 overflow-x-hidden space-y-5">
+    <form className="h-full w-fit bg-white shadow-xl p-10 overflow-x-hidden space-y-5">
       {fields.map((field) => (
         <div key={field.name} className="border-b-2">
           {renderField(field)}
